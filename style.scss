@@ -1,0 +1,30 @@
+/******** Navbar  ********/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+
+    .logo{
+        width: 20%;
+        padding-top: 1.3rem;
+
+    }
+
+    .home{
+        width: 55%;
+        ul{
+            display: flex;
+            list-style: none;
+            padding: 0;
+
+            li{
+                padding: 1rem;
+            }
+        }
+
+        a{
+            text-decoration: none;
+        }
+    }
+}
+  

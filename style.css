@@ -1,0 +1,24 @@
+/******** Navbar  ********/
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5rem;
+}
+.navbar .logo {
+  width: 20%;
+  padding-top: 1.3rem;
+}
+.navbar .home {
+  width: 55%;
+}
+.navbar .home ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.navbar .home ul li {
+  padding: 1rem;
+}
+.navbar .home a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
