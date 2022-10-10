@@ -71,48 +71,11 @@ body {
   display: flex;
   position: relative;
   top: 7rem;
-  height: 90vh;
-}
-.intro .explore-swag {
-  width: 50%;
-  padding: 1rem;
-}
-.intro .explore-swag h1 {
-  font-size: 11rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 800;
-  line-height: 12rem;
-  margin-top: 4rem;
-}
-.intro .explore-swag h1 hr {
-  border: 0;
-  margin: 0;
-}
-.intro .explore-swag h1 span {
-  color: #12edd6;
-}
-.intro .explore-swag p {
-  font-family: "Mulish", sans-serif;
-  font-size: 24px;
-}
-.intro .explore-swag button {
-  background: black;
-  color: white;
-  font-family: "Mulish", sans-serif;
-  font-size: 16px;
-  text-align: center;
-  width: 27rem;
-  height: 5rem;
-  border: 0;
-}
-.intro .explore-swag button:hover {
-  background: white;
-  color: black;
-  border: 1px solid black;
+  height: 100vh;
+  margin-bottom: 40rem;
 }
 .intro .image {
   position: relative;
-  left: 12rem;
   top: 2rem;
 }
 .intro .image .green {
@@ -173,54 +136,41 @@ body {
   left: 54rem;
   top: -58rem;
 }
-
-/************* OUR FAVORITES *****************/
-.favorites {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+.intro .explore-swag {
+  width: 60%;
+  padding: 1rem;
+  padding-left: 12rem;
 }
-.favorites .Title {
-  text-align: center;
-  padding: 4rem 0;
-}
-.favorites .Title h1 {
-  font-size: 4rem;
+.intro .explore-swag h1 {
+  font-size: 11rem;
   font-family: "Lato", sans-serif;
-  font-weight: 600;
+  font-weight: 800;
+  line-height: 10rem;
+  margin: 4rem 0;
 }
-.favorites .fav-products {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-row-gap: 10rem;
-  grid-column-gap: 5rem;
+.intro .explore-swag h1 hr {
+  border: 0;
+  margin: 0;
 }
-.favorites .fav-products .product {
-  text-align: center;
-}
-.favorites .fav-products .product img {
-  width: 100%;
-}
-.favorites .fav-products .product p {
-  font-size: 1.8rem;
-  font-family: "Mulish", sans-serif;
-  font-weight: 700;
-  line-height: 2.1rem;
-}
-.favorites .fav-products .product button {
-  width: 80%;
-  height: 5rem;
-  text-align: center;
-  background: white;
-  color: black;
-  border: 1px solid black;
-  letter-spacing: 0.2rem;
-}
-.favorites .fav-products .product button:hover {
+.intro .explore-swag h1 span {
   color: #12edd6;
-  border: 1px solid #12edd6;
+}
+.intro .explore-swag p {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+}
+.intro .explore-swag h3 {
+  font-family: "Mulish", sans-serif;
+  font-size: 40px;
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  line-height: 40px;
 }
 
 /******************  FOOTER  ***********************/
+footer {
+  height: 12rem;
+}
 footer .U-footer {
   display: flex;
   justify-content: space-between;
@@ -263,7 +213,6 @@ footer .L-footer {
   justify-content: space-between;
   align-items: center;
   height: 6rem;
-  margin-bottom: 4rem;
 }
 footer .L-footer .copywrite {
   display: flex;
@@ -294,4 +243,4 @@ footer .L-footer .terms ul li a {
 }
 footer .L-footer .terms ul li a:hover {
   color: #12edd6;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=About.css.map */
